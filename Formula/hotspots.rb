@@ -1,18 +1,18 @@
 class Hotspots < Formula
   desc "Static analysis CLI for TypeScript that computes Local Risk Score (LRS)"
   homepage "https://hotspots.dev"
-  version "3.8.1"
+  version "3.8.2"
   license "MIT"
 
   on_macos do
-    url "https://github.com/Stephen-Collins-tech/hotspots/releases/download/v3.8.1/hotspots-darwin-aarch64.tar.gz"
-    sha256 "14611a3a1047b36dfd51d5ae91db2c70c02e825f6220c2b7da6e4ac997fc38d5"
+    url "https://github.com/Stephen-Collins-tech/hotspots/releases/download/v3.8.2/hotspots-darwin-aarch64.tar.gz"
+    sha256 "f318f9a61f77e2cefc571e40ea7182ef31dc4241c00b61193a0778536a75763d"
   end
 
   on_linux do
     on_amd64 do
-      url "https://github.com/Stephen-Collins-tech/hotspots/releases/download/v3.8.1/hotspots-linux-x86_64.tar.gz"
-      sha256 "673cd8e430571e020bbe81428b5b41d74bd521cd1ce39a9524c3b15d5f43393f"
+      url "https://github.com/Stephen-Collins-tech/hotspots/releases/download/v3.8.2/hotspots-linux-x86_64.tar.gz"
+      sha256 "a8289637a42cf0ca0b3c17030389a59ec17f34981cab582c5913486d05b1e13e"
     end
   end
 
